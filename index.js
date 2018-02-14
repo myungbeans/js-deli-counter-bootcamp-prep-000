@@ -26,6 +26,6 @@ function currentLine(line){
       numAndNames.push(` ${i + 1}. ${line[i]}`);
     }
     numAndNames.join(`,`)
-    return `The line is currently:${indexAndNames}`
+    return `The line is currently:${numAndNames}`
   }
 }
