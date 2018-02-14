@@ -21,7 +21,7 @@ function currentLine(line){
   }
 
   else {
-    let indexAndNames = [];
+    let numAndNames = [];
     for (let i = 0; i < line.length; i++) {
       indexAndNames.push(` ${i + 1}. ${line[i]}`);
     }
