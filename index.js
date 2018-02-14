@@ -23,9 +23,9 @@ function currentLine(line){
   else {
     let numAndNames = [];
     for (let i = 0; i < line.length; i++) {
-      indexAndNames.push(` ${i + 1}. ${line[i]}`);
+      numAndNames.push(` ${i + 1}. ${line[i]}`);
     }
-    indexAndNames.join(`,`)
+    numAndNames.join(`,`)
     return `The line is currently:${indexAndNames}`
   }
 }
